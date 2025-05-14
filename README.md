@@ -1,3 +1,8 @@
+# RaDL: Relation-aware Disentangled Learning for Multi-Instance Text-to-Image Generation
+
+## Training
+The training code is still under refactoring, and will update it later.
+
 # RaDL GUI
 We have combined RaDL and [GLIGEN-GUI](https://github.com/mut-ex/gligen-gui) to generate images that are more convenient for users.
 
@@ -32,7 +37,7 @@ Download the [radl_pretrained.ckpt](https://drive.google.com/file/d/1wD_xokpeKK8
 ```
 
 ### 3. CLIP Text Encoder
-Download the [CLIPTextModel](https://drive.google.com/file/d/1Z_BFepTXMbe-cib7Lla5A224XXE1mBcS/view?usp=sharing) and put it under the 'text_encoder' folder.
+Download the [CLIPTextModel](https://drive.google.com/file/d/1SkXlvXQZxYFNzaAaEdnANhKSuB0p9C1a/view?usp=sharing) and put it under the 'text_encoder' folder.
 (place it in `radl_gui_weights/clip/text_encoder/pytorch_model.bin`.)
 ```
 ├── clip
@@ -43,7 +48,7 @@ Download the [CLIPTextModel](https://drive.google.com/file/d/1Z_BFepTXMbe-cib7Ll
 ```
 
 ### 4. style models 
-Download the [RV60B1](https://civitai.com/models/4201/realistic-vision-v60-b1) model and place it in `radl_gui_weights/sd/realisticVisionV60B1_v51HyperVAE.safetensors`. Alternatively, you can visit [civitai](https://civitai.com/) to download other models of your preference and place them in `radl_gui_weights/sd/`.
+Download the [RV60B1](https://drive.google.com/file/d/16vJ0dF-NjTx4duL7RooheNCbX7HG_BgU/view?usp=sharing) model and place it in `radl_gui_weights/sd/realisticVisionV60B1_v51HyperVAE.safetensors`. Alternatively, you can visit [civitai](https://civitai.com/) to download other models of your preference and place them in `radl_gui_weights/sd/`.
 **※ Even if you add multiple style models, you can choose a style within the GUI later.**
 
 ```
@@ -70,7 +75,4 @@ Launch the application by running `python app.py --port=22222`. You can now acce
 ## Contact us
 If you have any questions, feel free to contact me via email geonpark@korea.ac.kr
 
-
-## Training
-The training code is still under refactoring, and will update it later.
 
