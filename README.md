@@ -19,7 +19,9 @@ We have combined RaDL and [GLIGEN-GUI](https://github.com/mut-ex/gligen-gui) to 
 conda create -n radl_env python=3.9.21
 conda activate radl_env
 ```
+<br>
 Move to the RaDL folder
+<br>
 ```
 pip install -r requirements.txt
 pip install -e .
@@ -69,7 +71,8 @@ cd radl_gui
 ```
 
 ### 5. Run GUI
-Launch the application by running `python app.py --port=22222`. You can now access the RaDL GUI through http://localhost:22222/. You can freely change the port at your convenience.
+Launch the application by running `python app.py --port=22222`. You can now access the RaDL GUI through http://localhost:22222/. <br> 
+You can freely change the port at your convenience.
 
 
 ## Contact us
