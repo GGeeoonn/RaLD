@@ -1,5 +1,5 @@
 # RaDL GUI
-We have combined MIGC and [GLIGEN-GUI](https://github.com/mut-ex/gligen-gui) to generate images that are more convenient for users.
+We have combined RaDL and [GLIGEN-GUI](https://github.com/mut-ex/gligen-gui) to generate images that are more convenient for users.
 
 **Generate different styles of images**: RaDL can also serve as a flexible plug-and-play module, enabling the generation of diverse image styles while preserving instance-specific attributes and relationships. By integrating RaDL with different base diffusion models, users can easily adapt the framework to produce images with varying artistic, photorealistic, or domain-specific styles without compromising spatial accuracy or semantic alignment. 
 (Alternatively, you can visit [civitai](https://civitai.com/) to download other models of your preference)
