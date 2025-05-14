@@ -9,7 +9,7 @@ We have combined RaDL and [GLIGEN-GUI](https://github.com/mut-ex/gligen-gui) to 
 **Generate different styles of images**: RaDL can also serve as a flexible plug-and-play module, enabling the generation of diverse image styles while preserving instance-specific attributes and relationships. By integrating RaDL with different base diffusion models, users can easily adapt the framework to produce images with varying artistic, photorealistic, or domain-specific styles without compromising spatial accuracy or semantic alignment. 
 (Alternatively, you can visit [civitai](https://civitai.com/) to download other models of your preference)
 
-For instance:
+**For instance:**
 - **[RV60B1](https://civitai.com/models/4201/realistic-vision-v60-b1)**: Ideal for those seeking lifelike detail, RV60B1 specializes in generating images with stunning realism.
 - **[Cetus-Mix](https://civitai.com/models/6755/cetus-mix)**: These robust base models excel in crafting animated content.
 
@@ -49,6 +49,7 @@ Download the [CLIPTextModel](https://drive.google.com/file/d/1SkXlvXQZxYFNzaAaEd
 
 ### 4. style models 
 Download the [RV60B1](https://drive.google.com/file/d/16vJ0dF-NjTx4duL7RooheNCbX7HG_BgU/view?usp=sharing) model and place it in `radl_gui_weights/sd/realisticVisionV60B1_v51HyperVAE.safetensors`. Alternatively, you can visit [civitai](https://civitai.com/) to download other models of your preference and place them in `radl_gui_weights/sd/`.
+
 **※ Even if you add multiple style models, you can choose a style within the GUI later.**
 
 ```
