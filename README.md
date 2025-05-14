@@ -49,7 +49,7 @@ Download the [RV60B1](https://civitai.com/models/4201/realistic-vision-v60-b1) m
 ```
 ├── pretrained_weights
 │   ├── radl_pretrained.ckpt
-├── migc_gui_weights
+├── radl_gui_weights
 │   ├── clip
 │   │   ├── text_encoder
 │   │   │   ├── pytorch_model.bin
