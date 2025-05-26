@@ -8,7 +8,7 @@ We used the COCO 2014 dataset for training. Specifically, we utilized the 2014 T
 You can download the dataset from the official links below: <br>
 [COCO2014 Dataset](https://cocodataset.org/#download)
 
-and put it under the 'data_preparation/train2014', 'data_preparation/annotations' folders.
+and put it under the 'data_preparation/train2014' **(images)**, 'data_preparation/annotations' **(annotations)** folders.
 
 **2. Data Preprocessing** <br>
 Our code is based on [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything). We provide a pipeline for annotating data on individual text and images, which you can use to prepare your own data. To use this pipeline, you need to follow these steps:
