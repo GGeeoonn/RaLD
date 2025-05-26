@@ -36,6 +36,7 @@ You should also download ViT-H SAM model in [SAM](https://dl.fbaipublicfiles.com
 Put the two files you downloaded into the /data_preparation folder. <br>
 The final file configuration is as follows:
 
+```
 ├── annotations
 │   ├── captions_train2014.json
 ├── Grounded-Segment-Anything
@@ -53,6 +54,7 @@ The final file configuration is as follows:
 ├── groundingino_swint_ogc.pth
 ├── sam_vit_h_4b8939.pth
 ├── ...
+```
 
 When you automatically download the Stanza model, if you encounter a download error, you can manually download the model and use it offline.
 
