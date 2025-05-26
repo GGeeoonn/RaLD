@@ -15,7 +15,7 @@ Our code is based on Grounded-SAM. We provide a pipeline for annotating data on 
 
 You need to clone the [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) project repository.
 
-### Install Environment** <br>
+**Install Environment** <br>
 **※ Assuming you have already installed PyTorch.** <br>
 
 ```
@@ -32,12 +32,43 @@ Download the GroundingDINO checkpoint:
 wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
 ```
 
-You shoule also download ViT-H SAM model in [SAM](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
+You should also download ViT-H SAM model in [SAM](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) <br>
+Put the two files you downloaded into the /data_preparation folder. <br>
+The final file configuration is as follows:
+
+├── annotations
+│   ├── captions_train2014.json
+├── Grounded-Segment-Anything
+│   ├── ...
+├── GroundingDINO
+│   ├── ...
+├── segment-anything
+│   ├── ...
+├── stanza_resources
+│   │   ├── en
+│   │   │   ├── ...
+│   │   ├── resources.json
+├── train2014
+│   ├── ...
+├── groundingino_swint_ogc.pth
+├── sam_vit_h_4b8939.pth
+├── ...
 
 When you automatically download the Stanza model, if you encounter a download error, you can manually download the model and use it offline.
-The model can be downloaded offline from the following path, but make sure the current version aligns with the version of Stanza you have installed.
+
+The model can be downloaded offline from the following path, but make sure the current version aligns with the version of Stanza you have installed. <br>
 [stanza](https://huggingface.co/stanfordnlp/stanza-en/tree/main), and put the [resources json](https://github.com/stanfordnlp/stanza-resources) in the weight directory.
-The weight file path looks like the following:
+
+**In stanza-en directory:**
+```
+├── en (Change the directory name from model to en)
+│   ├── ...
+├── README.md
+└── resources.json (Download from resources json)
+```
+
+Or if that doesn't work, you can download it at once at the following link.
+[stanza_resources](https://drive.google.com/file/d/17_3fpAqKTm5QSY0N4toOiWw0OfOKyUzj/view?usp=sharing)
 
 **4. Training Details** <br>
 The model was trained for 300 epochs using 7 NVIDIA A6000 GPUs, and the total training time was approximately 8 days.
