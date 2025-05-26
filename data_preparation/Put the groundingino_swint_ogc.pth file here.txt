@@ -1,0 +1,1 @@
+Put the groundingino_swint_ogc.pth file here.
