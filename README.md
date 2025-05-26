@@ -4,7 +4,7 @@
 The training code is still under refactoring, and will update it later.
 
 ### 1. Train Dataset Download
-We used the COCO 2014 dataset for training. Specifically, we utilized the 2014 Train images and the corresponding 2014 Train captions.<br>
+We used the COCO 2014 dataset for training. Specifically, we utilized the 2014 Train images and the corresponding 2014 Train captions. <br>
 You can download the dataset from the official links below: <br>
 [COCO2014 Dataset](https://cocodataset.org/#download)
 
