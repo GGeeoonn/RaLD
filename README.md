@@ -75,14 +75,10 @@ Launch the application by running `python app.py --port=22222`. You can now acce
 You can freely change the port at your convenience.
 
 ### GUI Example Image
-![image](https://github.com/user-attachments/assets/21eb909c-f386-4232-9e0a-a634a15b7346)
-![image](https://github.com/user-attachments/assets/0de60c56-1eae-4982-ab53-beea7ad7cfda)
-![image](https://github.com/user-attachments/assets/82ad3f62-c439-4510-a0ed-d6d496ed578c)
-![image](https://github.com/user-attachments/assets/05ccdea1-f9b6-4d76-af9d-4d625f60f07b)
-
-
-
-
+![image](https://github.com/user-attachments/assets/b34ecafa-3ca2-4b81-afff-5d1148368e8a)
+![image](https://github.com/user-attachments/assets/72e08883-e1a1-4b1d-8693-537eaf42ccd3)
+![image](https://github.com/user-attachments/assets/cafe66d7-d4a5-4bf6-be8a-ad0dd6698862)
+![image](https://github.com/user-attachments/assets/227dac2c-7027-4f23-8907-6debf28a4ee6)
 
 ## Contact us
 If you have any questions, feel free to contact me via email geonpark@korea.ac.kr
