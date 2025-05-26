@@ -62,8 +62,8 @@ The model can be downloaded offline from the following path, but make sure the c
 [stanza](https://huggingface.co/stanfordnlp/stanza-en/tree/main), and put the [resources json](https://github.com/stanfordnlp/stanza-resources) in the weight directory. <br>
 
 **In stanza-resources directory:**
-```
 ※ Change the directory name from stanza-resources to stanza-en
+```
 ├── en (Change the directory name from en to models)
 │   ├── ...
 ├── README.md
