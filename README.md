@@ -15,7 +15,7 @@ Our code is based on Grounded-SAM. We provide a pipeline for annotating data on 
 
 You need to clone the [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) project repository. <br>
 
-**<Install Environment>** <br>
+**`<Install Environment>`** <br>
 **※ Assuming you have already installed PyTorch.** <br>
 
 ```
