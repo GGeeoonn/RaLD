@@ -3,6 +3,9 @@
 ## Training
 The training code is still under refactoring, and will update it later.
 
+**Training Details**
+The model was trained for 300 epochs using 7 NVIDIA A6000 GPUs, and the total training time was approximately 8 days.
+
 # RaDL GUI
 We have combined RaDL and [GLIGEN-GUI](https://github.com/mut-ex/gligen-gui) to generate images that are more convenient for users.
 
