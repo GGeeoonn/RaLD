@@ -1,16 +1,16 @@
 # RaDL: Relation-aware Disentangled Learning for Multi-Instance Text-to-Image Generation
 
-## Training
+# Training
 The training code is still under refactoring, and will update it later.
 
-**1. Train Dataset Download** <br>
+### 1. Train Dataset Download
 We used the COCO 2014 dataset for training. Specifically, we utilized the 2014 Train images and the corresponding 2014 Train captions.<br>
 You can download the dataset from the official links below: <br>
 [COCO2014 Dataset](https://cocodataset.org/#download)
 
 and put it under the 'data_preparation/train2014' **(images)**, 'data_preparation/annotations' **(annotations)** folders.
 
-**2. Data Preprocessing** <br>
+### 2. Data Preprocessing
 Our code is based on Grounded-SAM. We provide a pipeline for annotating data on individual text and images, which you can use to prepare your own data. To use this pipeline, you need to follow these steps: <br>
 
 You need to clone the [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) project repository. <br>
@@ -83,7 +83,7 @@ Finally, to extract action-based verbs from the extracted text, the command is e
 python update_json.py
 ```
 
-**4. Training Details** <br>
+### 3. Training Details
 The model was trained for 300 epochs using 7 NVIDIA A6000 GPUs, and the total training time was approximately 8 days.
 
 # RaDL GUI
