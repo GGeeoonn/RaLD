@@ -102,9 +102,9 @@ We have combined RaDL and [GLIGEN-GUI](https://github.com/mut-ex/gligen-gui) to 
 conda create -n radl_env python=3.9.21
 conda activate radl_env
 ```
-<br>
+
 Move to the RaDL folder
-<br>
+
 ```
 pip install -r requirements.txt
 pip install -e .
