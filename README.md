@@ -86,4 +86,6 @@ You can freely change the port at your convenience.
 ## Contact us
 If you have any questions, feel free to contact me via email geonpark@korea.ac.kr
 
-
+## References
+- Li, Y., Liu, H., Wu, Q., Mu, F., Yang, J., Gao, J., ... & Lee, Y. J. (2023). Gligen: Open-set grounded text-to-image generation. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 22511-22521).
+- Zhou, D., Li, Y., Ma, F., Zhang, X., & Yang, Y. (2024). Migc: Multi-instance generation controller for text-to-image synthesis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 6818-6828).
