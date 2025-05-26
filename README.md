@@ -74,7 +74,7 @@ cd radl_gui
 Launch the application by running `python app.py --port=22222`. You can now access the RaDL GUI through http://localhost:22222/. <br> 
 You can freely change the port at your convenience.
 
-### GUI Example Image
+### ● GUI Example Image
 ![image](https://github.com/user-attachments/assets/b34ecafa-3ca2-4b81-afff-5d1148368e8a)
 ![image](https://github.com/user-attachments/assets/72e08883-e1a1-4b1d-8693-537eaf42ccd3)
 ![image](https://github.com/user-attachments/assets/cafe66d7-d4a5-4bf6-be8a-ad0dd6698862)
