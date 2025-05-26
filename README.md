@@ -4,8 +4,14 @@
 The training code is still under refactoring, and will update it later.
 
 **1. Train Dataset Download** <br>
+We used the COCO 2014 dataset for training. Specifically, we utilized the 2014 Train images and the corresponding 2014 Train captions.<br>
+You can download the dataset from the official links below: <br>
+[COCO2014 Dataset](https://cocodataset.org/#download)
+
+and put it under the 'data_preparation/train2014', 'data_preparation/annotations' folders.
 
 **2. Data Preprocessing** <br>
+Our code is based on [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything). We provide a pipeline for annotating data on individual text and images, which you can use to prepare your own data. To use this pipeline, you need to follow these steps:
 
 **3. Install Environment** <br>
 
