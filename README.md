@@ -11,11 +11,11 @@ You can download the dataset from the official links below: <br>
 and put it under the 'data_preparation/train2014' **(images)**, 'data_preparation/annotations' **(annotations)** folders.
 
 **2. Data Preprocessing** <br>
-Our code is based on Grounded-SAM. We provide a pipeline for annotating data on individual text and images, which you can use to prepare your own data. To use this pipeline, you need to follow these steps:
+Our code is based on Grounded-SAM. We provide a pipeline for annotating data on individual text and images, which you can use to prepare your own data. To use this pipeline, you need to follow these steps: <br>
 
-You need to clone the [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) project repository.
+You need to clone the [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) project repository. <br>
 
-**Install Environment** <br>
+**<Install Environment>** <br>
 **※ Assuming you have already installed PyTorch.** <br>
 
 ```
@@ -27,14 +27,14 @@ pip install opencv-python pycocotools matplotlib onnxruntime onnx ipykernel stan
 **Prepare Model Weights** <br>
 You should download the model weights of Grounding-DINO and SAM model. <br>
 
-Download the GroundingDINO checkpoint:
+Download the GroundingDINO checkpoint: <br>
 ```
 wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
 ```
 
 You should also download ViT-H SAM model in [SAM](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) <br>
 Put the two files you downloaded into the /data_preparation folder. <br>
-The final file configuration is as follows:
+The final file configuration is as follows: <br>
 
 ```
 ├── annotations
@@ -56,10 +56,10 @@ The final file configuration is as follows:
 ├── ...
 ```
 
-When you automatically download the Stanza model, if you encounter a download error, you can manually download the model and use it offline.
+When you automatically download the Stanza model, if you encounter a download error, you can manually download the model and use it offline. <br>
 
 The model can be downloaded offline from the following path, but make sure the current version aligns with the version of Stanza you have installed. <br>
-[stanza](https://huggingface.co/stanfordnlp/stanza-en/tree/main), and put the [resources json](https://github.com/stanfordnlp/stanza-resources) in the weight directory.
+[stanza](https://huggingface.co/stanfordnlp/stanza-en/tree/main), and put the [resources json](https://github.com/stanfordnlp/stanza-resources) in the weight directory. <br>
 
 **In stanza-en directory:**
 ```
