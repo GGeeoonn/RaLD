@@ -15,7 +15,7 @@ Our code is based on Grounded-SAM. We provide a pipeline for annotating data on 
 
 You need to clone the [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) project repository. <br>
 
-**`<Install Environment>`** <br>
+### <Install Environment>
 **※ Assuming you have already installed PyTorch.** <br>
 
 ```
@@ -61,16 +61,27 @@ When you automatically download the Stanza model, if you encounter a download er
 The model can be downloaded offline from the following path, but make sure the current version aligns with the version of Stanza you have installed. <br>
 [stanza](https://huggingface.co/stanfordnlp/stanza-en/tree/main), and put the [resources json](https://github.com/stanfordnlp/stanza-resources) in the weight directory. <br>
 
-**In stanza-en directory:**
+**In stanza-resources directory:**
 ```
-├── en (Change the directory name from model to en)
+※ Change the directory name from stanza-resources to stanza-en
+├── en (Change the directory name from en to models)
 │   ├── ...
 ├── README.md
 └── resources.json (Download from resources json)
 ```
 
-Or if that doesn't work, you can download it at once at the following link.
-[stanza_resources](https://drive.google.com/file/d/17_3fpAqKTm5QSY0N4toOiWw0OfOKyUzj/view?usp=sharing)
+Or if that doesn't work, you can download it at once at the following link. <br>
+[stanza_resources](https://drive.google.com/file/d/17_3fpAqKTm5QSY0N4toOiWw0OfOKyUzj/view?usp=sharing) <br>
+
+Then, execute with the following command. <br>
+```
+python prepare_data.py
+```
+
+Finally, to extract action-based verbs from the extracted text, the command is executed to update the json file.
+```
+python update_json.py
+```
 
 **4. Training Details** <br>
 The model was trained for 300 epochs using 7 NVIDIA A6000 GPUs, and the total training time was approximately 8 days.
