@@ -1,0 +1,2 @@
+Put the stable diffusion pretrained file here.
+(For example, realisticVisionV60B1_v51HyperVAE.safetensors file)
